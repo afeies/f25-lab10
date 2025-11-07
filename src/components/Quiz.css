@@ -3,6 +3,9 @@ TODO: Enhance User Experience by adding visual highlights to selected answers.
 Hint: You can use the className attribute for highlighting. */
 .selected {
     cursor: pointer; /* Change cursor on hover for interactivity */
+    border: 2px solid #007BFF; /* Add a border to highlight the selected option */
+    border-radius: 5px; /* Add rounded corners for better aesthetics */
+    padding: 5px; /* Add padding to ensure the border doesn't overlap text */
   }
   
   /* Additional styling for better user experience */
@@ -72,4 +75,3 @@ Hint: You can use the className attribute for highlighting. */
     font-weight: bold;
     margin: 10px 0;
   }
-  
